@@ -1,4 +1,4 @@
-# [1장 멀티스레딩](!https://github.com/SeonghoJin/game_server_programming/tree/master/chapter1#readme)
+# [ 1장 멀티스레딩 ](https://github.com/SeonghoJin/game_server_programming/tree/master/chapter1#readme)
 # 2장 컴퓨터 네트워크
 # 3장 소켓 프로그래밍
 # 4장 게임 서버와 클라이언트
