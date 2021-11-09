@@ -25,9 +25,9 @@ socket의 버퍼사이즈를 좀 알고 싶었는데 도저히 알 수가 없어
 가 됐다.
 
 # Node.js 가비지 컬렉터
-사실 Node.js를 사용하면서 가비지 컬렉터에 그렇게 많은 관심을 가지지 않았다. 그냥 가비지 컬렉터가 있구나, 그래서 편하게 개발할 수 있구나라고 생각하면서 여태껏 아무런 생각을 안했는데, 위에서 메모리크기가 점점 커질때 에러가 생겼다.
+사실 Node.js를 사용하면서 가비지 컬렉터에 그렇게 많은 관심을 가지지 않았다. 그냥 가비지 컬렉터가 있구나, 그래서 편하게 개발할 수 있구나라고 생각하면서 여태껏 아무런 생각을 안했었다.
 
-<img src=https://github.com/SeonghoJin/GameServerProgramming/blob/master/chpater3/bufferSizeSendEvent/%EA%B0%80%EB%B9%84%EC%A7%80%EC%BB%AC%EB%A0%89%EC%85%98.png>ㅇ
+<img src=https://github.com/SeonghoJin/GameServerProgramming/blob/master/chpater3/bufferSizeSendEvent/%EA%B0%80%EB%B9%84%EC%A7%80%EC%BB%AC%EB%A0%89%EC%85%98.png>
 
 너무 많이 할당을 해서 에러가 뜬 것 같은데, 여기서 GCs를 보면 Mark-sweep이 눈에 띈다.
 
