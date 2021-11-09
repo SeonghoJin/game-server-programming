@@ -14,4 +14,4 @@
 TCP는 연결 지향형 프로토콜이다. 그리고 일대일 통신만 허락합니다. 따라서 TCP 소켓 1개는 오직 끝점 1개하고만 통신할 수 있습니다.
 
 # 번외
-- 애플리케이션이 소켓으로 보내는 전송속도보다 전송버퍼가 소켓으로 보내는 전송속도보다 빠
+- [애플리케이션이 소켓으로 보내는 전송속도보다 전송버퍼가 소켓으로 보내는 전송속도보다 빠를 때](https://github.com/SeonghoJin/GameServerProgramming/tree/master/chpater3/bufferSizeSendEvent#readme)
